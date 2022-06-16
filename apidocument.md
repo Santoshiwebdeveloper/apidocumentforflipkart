@@ -63,7 +63,7 @@
 
 >update order status
 >>(Put) http://localhost:9100/updateOrder/2
-(
+>>>(
     {
         "status":"TAX_FAIL",
         "bank_name":"AXIS",
