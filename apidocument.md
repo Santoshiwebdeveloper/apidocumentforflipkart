@@ -40,7 +40,7 @@
 >>(Post) localhost:9100/menuItem
 [1,4,6]
 
->place order
+
 > Place order
 >>(Post) localhost:9100/placeOrder
 (
@@ -57,8 +57,10 @@
 //page5
 >list of order placed
 >>(Get) http://localhost:9100/orders
+
 >list of order placed of particular user
 >>(Get) http://localhost:9100/orders?email=amit@gmail.com
+
 >update order status
 >>(Put) http://localhost:9100/updateOrder/2
 (
